@@ -17,7 +17,15 @@ display:inline;
 #page{
 width: 960px;
 margin: 0px auto 0px auto; 
-
+}
+#page-projects{
+width: 960px;
+margin: 0px auto 0px auto; 
+border-bottom: 7px dotted #000;
+box-shadow: inset 0 -3px 0 0 #000, 0 3px 0 0 #000;
+border-top: 7px dotted #000;
+box-shadow: inset 0 3px 0 0 #000, 0 -3px 0 0 #000;
+padding-bottom: 50px;
 }
 #portrait{
 width:100px;
@@ -27,8 +35,13 @@ padding:30px;
 border: 5px groove black;
 background-color: #d5f5f5;
 }
-#home-content-shift-right{
+#portrait-title{
 margin: 25px auto 0px 240px;
+font-family: Futura,"Trebuchet MS",Arial,sans-serif;
+color: black;
+}
+#home-content-shift-right{
+margin: 25px auto 0px 130px;
 font-family: Futura,"Trebuchet MS",Arial,sans-serif;
 color: #6d929b;
 }
@@ -37,5 +50,65 @@ margin: 25px auto 0px 0px;
 font-family: Futura,"Trebuchet MS",Arial,sans-serif;
 color: #283A3E;
 }
+#projects-content{
+margin: 75px auto 0px 50px; 
+}
+#projects-header{
+margin: 25px auto 0px 240px; 
+color: #6d929b;
+}
+.read-less{
+font: bold 11px Arial;
+text-decoration: none;
+background-color: #EEEEEE;
+color: #333333;
+padding: 2px 6px 2px 6px;
+border-top: 1px solid #CCCCCC;
+border-right: 1px solid #333333;
+border-bottom: 1px solid #333333;
+border-left: 1px solid #CCCCCC;
+}
+.read-more{
+font: bold 11px Arial;
+text-decoration: none;
+background-color: #EEEEEE;
+color: #333333;
+padding: 2px 6px 2px 6px;
+border-top: 1px solid #CCCCCC;
+border-right: 1px solid #333333;
+border-bottom: 1px solid #333333;
+border-left: 1px solid #CCCCCC;
+}
+#portfolio-content{
+margin:25px 200px auto 200px;
+}
+#resume-li{
 
+padding-right:200px;
+display:inline;
+}
+#resume-ul{
+display: inline;
+font-size:12px;
+text-decoration: bold;
+}
+#resume-head{
+margin:25px auto 0px 240px;
+}
+#resume-title{
+font-size: 20px;
+font-size: bold;
+}
+#resume-sub-title{
+margin-bottom:75px;
+font-size: 14px;
+font-style:bold;
+}
+.item{
+color:blue;
+}
+hr{
+width:660px;
+margin: 0px auto 0px 40px;
+}
 }
