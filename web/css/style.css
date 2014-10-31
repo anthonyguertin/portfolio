@@ -2,46 +2,64 @@
 .nav{
 margin: 50px auto 0px auto;
 padding:15px;
-width: 960px;
+width: 830px;
 height: 35px;
 }
-.nav-ul{
-display: inline;
-font-size:24px;
-text-decoration: underline;
+.nav ul {
+list-style: none;
+background-color: #444;
+text-align:right;
 }
-.nav-li{
-padding:25px;
-display:inline;
+.nav li {
+font-family: 'Oswald', sans-serif;
+font-size: 1.2em;
+line-height: 40px;
+height: 40px;
+border-bottom: 1px solid #888;
+display: inline-block;
+padding-right:120px;
+}
+.nav a {
+text-decoration: none;
+color: #fff;
+display: block;
+transition: .3s background-color;
+}
+.nav a:hover {
+background-color: #005f5f;
+}
+.nav a.active {
+background-color: #fff;
+color: #444;
+cursor: default;
 }
 #page{
 width: 960px;
 margin: 0px auto 0px auto; 
+margin-top: 50px;
 }
 #page-projects{
-width: 960px;
-margin: 0px auto 0px auto; 
+width: 830px;
+margin: 50px auto 0px auto; 
 border-bottom: 7px dotted #000;
 box-shadow: inset 0 -3px 0 0 #000, 0 3px 0 0 #000;
-border-top: 7px dotted #000;
-box-shadow: inset 0 3px 0 0 #000, 0 -3px 0 0 #000;
-padding-bottom: 50px;
+padding-bottom: 200px;
 }
 #portrait{
 width:100px;
 height:100px;
-margin: 20px auto 0px 250px;
+margin: 20px auto 0px 330px;
 padding:30px;
 border: 5px groove black;
 background-color: #d5f5f5;
 }
 #portrait-title{
-margin: 25px auto 0px 240px;
+margin: 25px auto 0px 330px;
 font-family: Futura,"Trebuchet MS",Arial,sans-serif;
 color: black;
 }
 #home-content-shift-right{
-margin: 25px auto 0px 130px;
+margin: 25px auto 0px 180px;
 font-family: Futura,"Trebuchet MS",Arial,sans-serif;
 color: #6d929b;
 }
@@ -67,6 +85,7 @@ border-top: 1px solid #CCCCCC;
 border-right: 1px solid #333333;
 border-bottom: 1px solid #333333;
 border-left: 1px solid #CCCCCC;
+margin:35px;
 }
 .read-more{
 font: bold 11px Arial;
@@ -78,12 +97,12 @@ border-top: 1px solid #CCCCCC;
 border-right: 1px solid #333333;
 border-bottom: 1px solid #333333;
 border-left: 1px solid #CCCCCC;
+margin:35px;
 }
 #portfolio-content{
 margin:25px 200px auto 200px;
 }
 #resume-li{
-
 padding-right:200px;
 display:inline;
 }
@@ -105,7 +124,10 @@ font-size: 14px;
 font-style:bold;
 }
 .item{
-color:blue;
+color:#736056;
+font-family: "Comic Sans MS", cursive, sans-serif;
+font-style:bold;
+font-size:18px;
 }
 hr{
 width:660px;

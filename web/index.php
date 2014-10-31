@@ -15,7 +15,7 @@ I spend both my professional and my free time programming. I cannot<br /> functi
 that <br />and exercise, my beautiful wife Jourdan trumps them all. My dog Rocco<br /> keeps me busy too :)
 </p>
 
-<div id="home-content-shift-left"><!--home-content-shift-left-->
+<div id="home-content-shift-right"><!--home-content-shift-left-->
 <p>
 This website will help you get an idea of who I am and what I am all about.<br /> Through the navigation bar at the top of this site 
 you can look at some of<br /> my past work that I have done. If you click the "Contact Me" link, there is <br /> a form for filling out information 
