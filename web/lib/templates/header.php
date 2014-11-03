@@ -3,6 +3,7 @@
     <meta name="viewport" content="width=device-width"/>
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="./css/smallstyle.css">
+	 <link rel="stylesheet" type="text/css" href="./css/resume.css">
   </head>
   <body>
     <header>
